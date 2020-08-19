@@ -27,7 +27,3 @@ function candleGen({count = 1, min = 0, max = 9999, noGap = true}) {
 
     return results;
 }
-
-console.log(candleGen({count: -10, max: 100}).map(c=>([
-    c
-])))
